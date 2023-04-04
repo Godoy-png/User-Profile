@@ -1,0 +1,136 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Arial, sans-serif;
+	background-color: #f0efef;
+}
+
+.container {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+.user-info {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.profile-image {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	object-fit: cover;
+	margin-bottom: 10px;
+}
+
+.name {
+	font-size: 36px;
+	margin-bottom: 5px;
+}
+
+.age, .location, .bio {
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+
+form {
+	background-color: #fff;
+	padding: 20px;
+	border-radius: 5px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+}
+
+label {
+	display: block;
+	font-size: 18px;
+	margin-bottom: 5px;
+}
+
+input[type="text"], input[type="number"], textarea {
+	width: 100%;
+	padding: 10px;
+	border: none;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	font-size: 18px;
+
+  background-color: #e2dede;
+}
+
+input[type="submit"] {
+	background-color: #4CAF50;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	padding: 10px;
+	font-size: 18px;
+	cursor: pointer;
+    margin: 0 auto;
+    display: block;
+    }
+
+input[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
+
+
+
+.file-input-wrapper {
+    position: relative;
+    display: inline-block; 
+  }
+  
+  .file-input-wrapper input[type="file"] {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    height: 100%;
+    width: 100%;
+    cursor: pointer;  
+  }
+  
+  .file-input-wrapper span {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .file-input-wrapper span:hover {
+    background-color: #3e8e41;
+    
+  }
+
+  label[for="profile-pic"] {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  label[for="profile-pic"] span {
+    order: 2;
+    margin-left: 10px;
+  }
+  
+  label[for="profile-pic"] input[type="file"] {
+    order: 1;
+    margin: 0;
+  }
+  
+
+  
+  
+/* 
+
+Criado por: Gabriel Godoy
+Created by: Gabriel Godoy
+
+*/

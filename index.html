@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Perfil do Usuário</title> 
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+ 
+</head>
+<body>
+	<div class="container">
+		<div class="user-info">
+			<img class="profile-image" src="images/avatar.jpg" alt="imagem-perfil">
+			<h1 class="name">Nome do usuário</h1>
+			<p class="age">Idade do usuário</p>
+			<p class="location">Localização do usuário</p>
+			<p class="bio">Biografia do usuário</p>
+		</div>
+
+		<form id="update-form">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required>
+          
+            <label for="age">Idade:</label>
+            <input type="number" id="age" name="age" required>
+          
+            <label for="location">Localização:</label>
+            <input type="text" id="location" name="location" required>
+          
+            <label for="bio">Biografia:</label>
+            <input type="text" id="bio" required></input>
+          
+            
+
+            <label for="profile-pic">Foto de perfil:</label>
+    <div class="file-input-wrapper">
+        <input type="file" id="profile-pic" name="profile-pic" accept="image/*">
+        <span>Procurar...</span>
+    </div>
+          
+            <input type="submit" value="Atualizar informações">
+          </form>
+          
+	</div>
+
+	<script src="script.js"></script>
+</body>
+</html>
+
+
+<!--
+    
+Criado por: Gabriel Godoy
+Created by: Gabriel Godoy
+
+    -- >
