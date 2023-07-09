@@ -1,15 +1,3 @@
-# User-Profile
-
-
-
-Coloque todos os arquivos dentro de uma pasta.
-Após isso crie outra pasta dentro dessa com o nome "images".
-Coloque o arquivo "avatar.jpg" dentro da pasta "images".
-
-
-
-
-Put all files inside a folder.
-After that, create another folder inside it named "images". 
-Place the file "avatar.jpg" inside the "images" folder.
-
+## Uma página de perfil de usuário super simples.
+## A super simple user profile page.
+![Screenshot_6](https://github.com/Godoy-png/User-Profile/assets/107765540/b0e5a545-5104-4525-83f1-9290e02c7c23)
